@@ -37,11 +37,11 @@ namespace NewRegistrationForm
             var courses = "";
             if (CheckBox1.Checked)
             {
-                courses = CheckBox1.Text + " ";
+                courses = CheckBox1.Text + ", ";
             }
             if (CheckBox2.Checked)
             {
-                courses += CheckBox2.Text + " ";
+                courses += CheckBox2.Text + ", ";
             }
             if (CheckBox3.Checked)
             {
